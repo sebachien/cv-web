@@ -1,0 +1,33 @@
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagneregular';
+    src: url('police/cac_champagne-webfont.eot');
+    src: url('police/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/cac_champagne-webfont.woff') format('woff'),
+         url('police/cac_champagne-webfont.ttf') format('truetype'),
+         url('police/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+body
+{
+	background: url(fond.jpg);
+}
+h1
+{
+	text-align: center;
+}
+img
+{
+	float: right;
+	border: 2px black solid;
+	box-shadow: 5px 5px 0px #aaa;
+}
+p
+{
+	text-align: center;
+	font-size: 25px ;
+	font-family: 'cac_champagneregular', Arial, serif;
+}
+h2
+{
+	color :#C7B167;
+}
